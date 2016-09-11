@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Form</title>
+</head>
+<body>
+	<form>
+	 <fieldset>
+	  <legend>Your Details:</legend>
+	  Name: <input type="text"><br>
+	  Email: <input type="text">
+	 </fieldset>
+	</form>
+	<br />
+	<form>
+	 <fieldset>
+	  <legend>Your Review:</legend><br />
+	  How did you hear about us? 
+		<select>
+		<option value="Google">Google</option>
+		<option value="Advertisement">Advertisement</option>
+		<option value="Friends">Friends</option>
+		<option value="Others">Others</option>
+		</select>
+		
+	  <p>Would you visit again?</p>
+		<input type="radio" name="opt" value="Yes"> Yes
+		<input type="radio" name="opt" value="No"> No
+		<input type="radio" name="opt" value="Maybe"> Maybe
+		
+	  <p>Comments :</p>
+	  <textarea rows="10" cols="60"></textarea><br /><br />	  
+	  <input type="checkbox" checked> Sign me up for email updates <br /><br />	  
+	  <input type="Submit" value="Submit review">
+	 </fieldset>
+	</form>	
+</body>
+</html>
